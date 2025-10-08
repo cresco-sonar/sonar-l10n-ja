@@ -3,6 +3,10 @@
  * Copyright (C) 2014-2022 SonarSource SA
  * mailto:contact AT sonarsource DOT com
  *
+ * L10n :: Japanese Pack
+ * Forked and modified by (C) 2025 CRESCO LTD.
+ * - Changed to Japanese translation plugin
+ *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
  * License as published by the Free Software Foundation; either
@@ -17,7 +21,7 @@
  * along with this program; if not, write to the Free Software Foundation,
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-package org.sonar.plugins.l10n;
+package jp.co.cresco.sonar.plugins.l10n;
 
 import org.junit.Test;
 import org.junit.Assert;
@@ -30,11 +34,11 @@ import org.sonar.api.SonarRuntime;
 import org.sonar.api.utils.Version;
 import org.sonar.test.i18n.I18nMatchers;
 
-public class ChinesePackPluginTest {
+public class JapanesePackPluginTest {
 
   // https://jira.sonarsource.com/browse/SONAR-7226
   @Test
-  public void bundles_should_be_up_to_date() {
+  public void testBundlesShouldBeUpToDate() {
     // Skip test, because of merge conflict in SonarQube-6.1
     // https://github.com/SonarSource/sonarqube/commit/50c03de3431007269b0966a8fdf1fe032c9521f6
     I18nMatchers.assertBundlesUpToDate();
@@ -42,15 +46,15 @@ public class ChinesePackPluginTest {
 
   // coverage
   @Test
-  public void testChinesePackPlugin() {
-    ChinesePackPlugin chinesePackPlugin = new ChinesePackPlugin();
+  public void testJapanesePackPlugin() {
+    JapanesePackPlugin japanesePackPlugin = new JapanesePackPlugin();
 
-    String pluginName = chinesePackPlugin.toString();
-    Assert.assertEquals("ChinesePackPlugin", pluginName);
+    String pluginName = japanesePackPlugin.toString();
+    Assert.assertEquals("JapanesePackPlugin", pluginName);
 
     SonarRuntime runtime = SonarRuntimeImpl.forSonarQube(Version.create(8, 5),
-      SonarQubeSide.SCANNER, SonarEdition.COMMUNITY);
+        SonarQubeSide.SCANNER, SonarEdition.COMMUNITY);
     Plugin.Context context = new PluginContextImpl.Builder().setSonarRuntime(runtime).build();
-    chinesePackPlugin.define(context);
+    japanesePackPlugin.define(context);
   }
 }
