@@ -3,6 +3,10 @@
  * Copyright (C) 2014-2022 SonarSource SA
  * mailto:contact AT sonarsource DOT com
  *
+ * L10n :: Japanese Pack
+ * Forked and modified by (C) 2025 CRESCO LTD.
+ * - Changed to Japanese translation plugin
+ *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
  * License as published by the Free Software Foundation; either
@@ -17,18 +21,19 @@
  * along with this program; if not, write to the Free Software Foundation,
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-package org.sonar.plugins.l10n;
+package jp.co.cresco.sonar.plugins.l10n;
 
 import org.sonar.api.Plugin;
 
 import java.util.Collections;
 
-public final class ChinesePackPlugin implements Plugin {
+public final class JapanesePackPlugin implements Plugin {
 
   @Override
   public String toString() {
     return getClass().getSimpleName();
   }
+
   @Override
   public void define(Context context) {
     context.addExtensions(Collections.emptyList());
