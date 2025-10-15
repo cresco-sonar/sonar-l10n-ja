@@ -5,7 +5,7 @@
 	<groupId>jp.co.cresco.sonar.plugins.l10n</groupId>
 	<artifactId>sonar-l10n-ja-plugin</artifactId>
 	<packaging>sonar-plugin</packaging>
-	<version>25.5</version>
+	<version>25.5-SNAPSHOT</version>
 
 	<name>L10n :: Japanese Pack</name>
 	<url>https://github.com/cresco-sonar/sonar-l10n-ja</url>
@@ -45,9 +45,9 @@
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-		<sonar.projectKey>cresco_sonar-l10n-ja</sonar.projectKey>
-		<sonar.organization>CRESCO LTD.</sonar.organization>
-		<sonar.host.url>https://www.cresco.co.jp/</sonar.host.url>
+		<sonar.projectKey>cresco-sonar_sonar-l10n-ja</sonar.projectKey>
+		<sonar.organization>cresco-sonar</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 	
 	<dependencies>
