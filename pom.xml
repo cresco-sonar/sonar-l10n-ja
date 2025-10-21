@@ -5,7 +5,7 @@
 	<groupId>jp.co.cresco.sonar.plugins.l10n</groupId>
 	<artifactId>sonar-l10n-ja-plugin</artifactId>
 	<packaging>sonar-plugin</packaging>
-	<version>25.5-SNAPSHOT</version>
+	<version>25.5</version>
 
 	<name>L10n :: Japanese Pack</name>
 	<url>https://github.com/cresco-sonar/sonar-l10n-ja</url>
