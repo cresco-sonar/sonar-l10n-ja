@@ -1,5 +1,7 @@
 # SonarQube Japanese Localization Pack Release Guide
 
+[日本語](https://github.com/cresco-sonar/sonar-l10n-ja/blob/master/RELEASE_GUIDE_ja.md)
+
 This document describes the release procedure for SonarQube Japanese Localization Pack (sonar-l10n-ja).
 
 ## 1. Prerequisites
