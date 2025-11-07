@@ -1,5 +1,7 @@
 # SonarQube 日本語翻訳パック リリースガイド
 
+[English](https://github.com/cresco-sonar/sonar-l10n-ja/blob/master/RELEASE_GUIDE_ja.md)
+
 このドキュメントでは、SonarQube 日本語翻訳パック（sonar-l10n-ja）のリリース手順について説明します。
 
 ## 1. 前提条件
