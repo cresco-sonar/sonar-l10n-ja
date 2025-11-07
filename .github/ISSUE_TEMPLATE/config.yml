@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: 📖 Contribution Guide (English)
-    url: https://github.com/your-repo/CONTRIBUTING.md
+    url: https://github.com/cresco-sonar/sonar-l10n-ja/blob/master/CONTRIBUTING.md
     about: Please read this guide before submitting an issue.
   - name: 📖 コントリビューションガイド (日本語)
-    url: https://github.com/your-repo/CONTRIBUTING_ja.md
+    url: https://github.com/cresco-sonar/sonar-l10n-ja/blob/master/CONTRIBUTING_ja.md
     about: Issue作成前に確認してください。
