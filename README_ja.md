@@ -12,3 +12,4 @@
 
 - [リリースガイド](https://github.com/cresco-sonar/sonar-l10n-ja/blob/master/RELEASE_GUIDE_ja.md)
 - [コントリビュートガイド](https://github.com/cresco-sonar/sonar-l10n-ja/blob/master/CONTRIBUTING_ja.md)
+- [開発元クレスコ プラグイン紹介記事](https://www.cresco.co.jp/blog/entry/entry2438736695983154632.html)

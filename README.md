@@ -14,3 +14,4 @@ License: GNU LGPL v3 (original license preserved)
 
 - [Release Guide](https://github.com/cresco-sonar/sonar-l10n-ja/blob/master/RELEASE_GUIDE.md)
 - [Contributing Guide](https://github.com/cresco-sonar/sonar-l10n-ja/blob/master/CONTRIBUTING.md)
+- [Developer: CRESCO plugin introduction article（in Japanese）](https://www.cresco.co.jp/blog/entry/entry2438736695983154632.html)
